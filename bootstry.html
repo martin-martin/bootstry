@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!-- NICE COLORS: #FFD94C #F8BF38 (on black) -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Langrey</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      /*SPOTIFY GREEN: #009DBD (maybe)*/
+      body {
+        text-align: center;
+        background-color: #121314;
+        color: #C9CAD0;
+      }
+      .nav,
+      .navbar {
+        background-color: #1C1C1F;
+      }
+      .nav,
+      .color-link,
+      .dropdown-toggle,
+      .navbar .nav > li > a  {
+        color: #86878A;
+      }
+      .active,
+      .color-link:hover,
+      .navbar .nav > li > a:hover {
+        /*not sure why this doesn't work*/
+        /*background-color: #1C1C1F;*/
+        background-color: none !important;
+        color: #C9CAD0;
+      }
+      hr {
+         border: 1px solid #86878A;
+      }
+      .player {
+        padding-top: 20px;
+      }
+      .lyrics-text {
+        font-size: 1.3em;
+        padding: 0 100px 0 100px;
+      }
+      @media screen and (max-width: 760px) {
+          .lyrics-text {
+              padding: 0 10px 0 10px;
+          }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Langrey</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">Edit Lyrics</a></li>
+            <li><a href="#contact">Show Translation</a></li>
+            <li><a href="#contact">Question of the Day</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Superextrasecret</li>
+                <li><a href="#">Extra Options</a></li>
+                <li><a href="#">Like we need any</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- stack navbar and tools when in small view, keep song full-width -->
+      <div class="row">
+        <div class="col-xs-6 col-md-2 hidden-xs"> <!-- hidden-xs makes it vanish for phones-->
+          <ul class="nav nav-stacked">
+            <li><a class="color-link" href="#">Add Song</a></li>
+            <hr>
+            <li><a class="color-link" href="#">Flashcards</a></li>
+            <li><a class="color-link" href="#">Questions Answered</a></li>
+            <hr>
+            <li><a class="color-link" href="#">Extra Resources</a></li>
+            <hr>
+            <li><a class="color-link" href="#">Preferences</a></li>
+            <li><a class="color-link" href="#">Verifications</a></li>
+            <hr>
+            <li><a class="color-link" href="#">My Playlist</a></li>
+          </ul>
+        </div>
+        <div class="nav col-xs-6 col-md-1 col-md-push-9 hidden-xs"> <!-- hidden-xs makes it vanish for phones-->
+          <ul class="nav nav-stacked">
+            <li><a class="color-link" href="#">Word Meaning</a></li>
+            <li><a class="color-link" href="#">Flashcard Fields</a></li>
+            <li><a class="color-link" href="#">Concepts</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-9 col-md-pull-1 lyrics-text">
+          <p>
+          Solo en tu boca
+          Yo quiero acabar
+          Todos esos besos
+          Que te quiero dar
+          A mí no me importa
+          Que duermas con él
+          Porque sé que sueñas
+          Con poderme ver
+          Mujer qué vas a hacer
+          Decídete pa' ver
+          Si te quedas o te vas
+          Sino no me busques más
+          </p>
+          <p>
+          Si te vas yo también me voy
+          Si me das yo también te doy
+          Mi amor
+          Bailamos hasta las diez
+          Hasta que duelan los pies
+          </p>
+          <p>
+          Si te vas yo también me voy
+          Si me das yo también te doy
+          Mi amor
+          Bailamos hasta las diez
+          Hasta que duelan los pies
+          </p>
+          <p>
+          Con él te duele el corazón
+          Y conmigo te duelen los pies
+          Con él te duele el corazón
+          Y conmigo te duelen los pies
+          </p>
+          <p>
+          Solo con un beso
+          Yo te haría acabar
+          Ese sufrimiento
+          Que te hace llorar
+          A mí no me importa
+          Que vivas con él
+          Porque sé que mueres
+          Con poderme ver
+          Mujer qué vas a hacer
+          Decídete pa’ ver
+          Si te quedas o te vas
+          Sino no me busques más
+          </p>
+          <p>
+          Si te vas yo también me voy
+          Si me das yo también te doy
+          Mi amor
+          Bailamos hasta las diez
+          Hasta que duelan los pies
+          </p>
+          <p>
+          Si te vas yo también me voy
+          Si me das yo también te doy
+          Mi amor
+          Bailamos hasta las diez
+          Hasta que duelan los pies
+          </p>
+          <p>
+          Con él te duele el corazón
+          Y conmigo te duelen los pies (yeah)
+          Con él te duele el corazón
+          Y conmigo te duelen los pies
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <iframe class="player" src="https://embed.spotify.com/?uri=spotify%3Atrack%3A6YZdkObH88npeKrrkb8Ggf" width="100%" height="100" frameborder="0" allowtransparency="true"></iframe>
+        </div>
+      </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
